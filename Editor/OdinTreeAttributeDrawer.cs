@@ -7,7 +7,7 @@ namespace KMTZ.OdinCanvas.Editor {
     /// <summary>
     /// Draw an object using the Property Tree of Odin
     /// </summary>
-    public class OdinTreeAttributeDrawer : AttributeDrawer<OdinTreeAttribute> {
+    public class OdinTreeAttributeDrawer : AttributeDrawer<OdinTreeAttribute>, IDisposable {
             
         private PropertyTree propertyTree;
         private object obj;
@@ -27,6 +27,11 @@ namespace KMTZ.OdinCanvas.Editor {
 
             propertyTree.Draw(false);
             return instance;
+        }
+
+        public void Dispose()
+        {
+            propertyTree?.Dispose();
         }
     }
 }
