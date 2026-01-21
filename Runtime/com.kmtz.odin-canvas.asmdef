@@ -1,0 +1,16 @@
+{
+    "name": "com.kmtz.odin-canvas",
+    "rootNamespace": "KMTZ.OdinCanvas",
+    "references": [
+        "GUID:66c2eb417c67ad849907d0769db96dbf"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,17 @@
+{
+    "name": "com.kmtz.odin-canvas-editor",
+    "rootNamespace": "KMTZ.OdinCanvas.Editor",
+    "references": [
+        "GUID:76c55e61c8fd09347bba023e384c995d",
+        "GUID:66c2eb417c67ad849907d0769db96dbf"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

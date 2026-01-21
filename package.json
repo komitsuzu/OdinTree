@@ -1,0 +1,16 @@
+{
+  "name": "com.kmtz.odin-canvas",
+  "displayName": "Odin Canvas",
+  "version": "1.0.0",
+  "unity": "2022.3",
+  "description": "Package to use odin in Node Canvas. Based on https://github.com/MasterZ0/OdinTree/tree/master.",
+  "author": {
+    "name": "KMTZ",
+    "email": "komitsuzu@gmail.com"
+  },
+  "keywords": [
+    "Odin",
+    "FlowCanvas",
+    "NodeCanvas"
+  ]
+}
